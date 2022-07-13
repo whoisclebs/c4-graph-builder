@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -16,6 +16,7 @@
     "c4-model"
   ],
   "devDependencies": {
+    "esbuild": "0.14.49",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
   }
