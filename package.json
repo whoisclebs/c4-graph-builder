@@ -1,0 +1,22 @@
+{
+  "name": "c4-graph-builder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clebsonf/c4-graph-builder.git"
+  },
+  "keywords": [
+    "c4-model"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
